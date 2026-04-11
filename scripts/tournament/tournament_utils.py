@@ -7,6 +7,7 @@ import json
 import re
 import shutil
 import subprocess
+import sys
 import tempfile
 from dataclasses import dataclass
 from pathlib import Path
@@ -242,7 +243,7 @@ def run_isolated_match(
             )
 
             proc = subprocess.run(
-                ["python3", "engine.py"],
+                [sys.executable, "engine.py"],
                 cwd=sandbox,
                 text=True,
                 capture_output=True,
