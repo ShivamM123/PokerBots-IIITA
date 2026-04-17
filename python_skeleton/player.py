@@ -9,6 +9,7 @@ from skeleton.runner import parse_args, run_bot
 
 import random
 
+'''this is a samople comment'''
 
 class Player(Bot):
     '''
