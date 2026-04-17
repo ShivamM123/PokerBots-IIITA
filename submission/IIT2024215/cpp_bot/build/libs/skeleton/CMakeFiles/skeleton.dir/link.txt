@@ -1,0 +1,2 @@
+/usr/bin/ar qc libskeleton.a CMakeFiles/skeleton.dir/src/actions.cpp.o CMakeFiles/skeleton.dir/src/states.cpp.o
+/usr/bin/ranlib libskeleton.a
